@@ -26,21 +26,12 @@ section{
     bottom: 40px;
 }
 .banner{
-    position: relative;
+    position: sticky;
 }
-.banner img{
-    max width: 100%;
-}
-.banner .welcome{
-    background-color: #FEB614 ;
-    color: white;
-    position: absolute;
-    left: 0px;
-    top: 30%;
-    padding:30pxS;
-}
+
 .banner h2{
-    font-size: 50px
+    font-size: 50px;
+    background-color: red;
 }
 nav ul{
     white-space: nowrap;
@@ -127,3 +118,13 @@ section.join p::selection{
 p::after{
     content:'...'
 }
+@media  screen and  (max-width: 960px){
+    .banner .welcome h2{
+       font-size: 60px;
+}
+nav li{
+ font-size: 18px;
+}
+
+    
+  
