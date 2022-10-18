@@ -2,7 +2,7 @@ header{
     text-align: center;
     font-weight: bold;
     font-size: x-large;
-    color: maroon;
+    color: whitesmoke;
     position:fixed;
     top: 10 0px;
     background-color: #F63232;
@@ -44,7 +44,7 @@ nav ul{
 nav li{
     width: 25%;
     display: inline-block;
-    font-size: 24px
+    font-size: 24px;
 }
 nav li a{
     text-decoration: none;
@@ -66,6 +66,7 @@ nav li a .join{
 .images li img{
     max-width: 100%;
 }
+
 .join{
     background: #F4F4F4;
     text-align: center;
@@ -73,7 +74,7 @@ nav li a .join{
     color: #4b4b4b;
 }
 .join h2{
-    font-size: 36pxS;
+    font-size: 36pxS; 
 }
 form input{
     margin: 20px 0;
@@ -121,21 +122,61 @@ section.join p::selection{
 p::after{
     content:'...'
 }
-@media  screen and  (max-width: 960px){
+@media  screen and  (max-width: 1400px){
     .banner .welcome h2{
-       font-size: 50px;
+       font-size: 40px;
        position:absolute;
-       left: 0px;
+       left: 50;
        top:5%;
        background-color: darkorange;
        color: white;
        position: absolute;
-       left: 20px;
        padding: 30px;
+       
+    }
 }
 nav li{
  font-size: 18px;
 }
+@media  screen and  (max-width: 960px){
+    .banner .welcome h2{
+       font-size: 40px;
+    }
+}
+@media  screen and  (max-width: 700px){
+    .banner .welcome h2{
+       font-size: 30px;
+       position: relative;
+    }
+    .banner.welcome br{
+        display: none;
+        text-align: center;
+    }
+    .banner.welcome h2{
+        font-size: 25px;
+    }
+    .banner.welcome span{
+        font-size: 1em;
+    }
+    .images li{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+} 
+@media  screen and  (max-width: 560px){
+    nav li{
+        font-size: 20px;
+        display: block;
+        width: 100% 0;
+        margin: 12px;
 
-    
+    }
+}
+header{
+    position: relative;
+}
+nav{
+    top: 0;
+}
   
