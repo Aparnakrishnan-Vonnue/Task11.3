@@ -3,16 +3,16 @@ header{
     font-weight: bold;
     font-size: x-large;
     color: maroon;
-    position: relative;
+    position:fixed;
     top: 10 0px;
     background-color: #F63232;
     padding: 20pxS; 
     position: static;
     z-index: 1;;
-    border: 10px solid white;
+    border:5px solid white;
 }
 header h1{
-    border: 10px solid white;
+    border: 5px solid white;
     position: relative;
     bottom: 20px;
     display: inline-block;
@@ -26,7 +26,10 @@ section{
     bottom: 40px;
 }
 .banner{
-    position: sticky;
+    position: relative ;
+}
+.banner img{
+    max-width: 100%;
 }
 
 .banner h2{
@@ -120,7 +123,15 @@ p::after{
 }
 @media  screen and  (max-width: 960px){
     .banner .welcome h2{
-       font-size: 60px;
+       font-size: 50px;
+       position:absolute;
+       left: 0px;
+       top:5%;
+       background-color: darkorange;
+       color: white;
+       position: absolute;
+       left: 20px;
+       padding: 30px;
 }
 nav li{
  font-size: 18px;
