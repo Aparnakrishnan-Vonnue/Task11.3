@@ -14,7 +14,7 @@
 }
 
 .service h2, .service p{
-    color: #999;
+    color: #3e3737;
     margin: 10px 0;
     text-align: center;
 }
@@ -39,6 +39,7 @@
     content:"";
     display: block;
     clear :both;
+   
     
 
 }
@@ -115,3 +116,7 @@ body{
     top: 40px;
     max-height: 150px;
 }
+nav li :hover{
+    text-decoration: underline;
+    background-color: cadetblue;
+} 
