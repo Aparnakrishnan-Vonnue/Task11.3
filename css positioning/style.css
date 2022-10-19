@@ -43,3 +43,12 @@ section, aside{
     content: "";
     clear: both;
 }
+
+.content p{
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 50px;
+    text-align: justify;
+    -webkit-column-rule: 1px solid #fff;
+    
+}
